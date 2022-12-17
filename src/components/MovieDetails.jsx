@@ -20,11 +20,11 @@ function MovieDetails() {
 
   return (
     <div
-      className="card m-2"
+      className="card m-2 text-white"
       style={{ backgroundColor: "rgb(0,0,0,.1)" }}
     >
       <div className="row w-100  m-1 d-flex ">
-        <div className="col-lg-3 col-xs-12 col-md-12">
+        <div className="col-lg-3 col-xs-12 col-md-12 me-5">
           <img
             className="card_img "
             src={`https://image.tmdb.org/t/p/w500` + movie.poster_path}
